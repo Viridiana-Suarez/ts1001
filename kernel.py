@@ -7,9 +7,6 @@ import numpy as np
 from matplotlib import pyplot
 import cv2
 
-
-
-
 cap = cv2.VideoCapture('video.mp4')
 while True:
     ret, frame = cap.read()
