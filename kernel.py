@@ -8,9 +8,9 @@ from matplotlib import pyplot
 import cv2
 import gdown
 
-gdown.download('https://drive.google.com/file/d/147U1K4CKe362boTYxggj6jW8P45Jhn5J', output="video.mp4")
+gdown.download('https://drive.google.com/file/d/147U1K4CKe362boTYxggj6jW8P45Jhn5J')
 
-cap = cv2.VideoCapture('/content/video.mp4')
+cap = cv2.VideoCapture('video.mp4')
 while True:
     ret, frame = cap.read()
     if not ret: break # break if no next frame
