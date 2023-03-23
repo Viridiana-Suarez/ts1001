@@ -1,4 +1,7 @@
 #https://github.com/Clar1ty1/ts1001
+#pip install opencv-python
+#pip install gdown
+
 import skimage as sk
 import numpy as np
 from matplotlib import pyplot
